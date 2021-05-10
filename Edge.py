@@ -3,4 +3,6 @@ class Edge:
 		self.start = start
 		self.end = end
 		self.weight = weight
-	
+
+	def __str__(self):
+		return '{self.start}\t{self.end}\t{self.weight}'.format(self=self)
